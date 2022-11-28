@@ -32,7 +32,7 @@ const AddTransaction = () => {
         </label>
         <input type="number" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700
         leading-tight focus:outline-none focus:shadow-outline'
-         placeholder='Enter text...'  value={amount} onChange={(e)=>{
+         placeholder='Enter Amount...'  value={amount} onChange={(e)=>{
                    setAmount(e.target.value)
         }}/>
         <button className='bg-green-500 hover:bg-green-700 text-white font-bold mt-6 py-2 px-4
